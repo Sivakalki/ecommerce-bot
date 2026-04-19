@@ -1,0 +1,49 @@
+# --- IDE / System Files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Environment & Secrets (CRITICAL) ---
+.env
+*.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Node.js / React ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build outputs (React/Next.js)
+build/
+dist/
+out/
+.next/
+
+# --- Go (Golang) ---
+# Ignore the compiled binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Binaries built for different OS/Arch
+bin/
+
+# Dependency directories
+vendor/
+
+# --- Databases ---
+# If you ever dump SQL for local testing
+*.sql.gz
+*.sqlite
+
+# --- MCP Specific ---
+# If you use the MCP inspector, it sometimes creates local logs
+mcp-inspector.log
