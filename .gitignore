@@ -47,3 +47,5 @@ vendor/
 # --- MCP Specific ---
 # If you use the MCP inspector, it sometimes creates local logs
 mcp-inspector.log
+
+todo.md

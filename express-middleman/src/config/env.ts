@@ -13,7 +13,7 @@ function require_env(key: string): string {
 export const env = {
   GROQ_API_KEY: require_env('GROQ_API_KEY'),
   GO_BINARY_PATH: path.resolve(
-    process.env.GO_BINARY_PATH ?? 'D:/MyPro/ecomerce-mcp/bridge-server/bridge.exe'
+    process.env.GO_BINARY_PATH ?? 'Your_path_here'
   ),
   PORT: parseInt(process.env.PORT ?? '3001', 10),
   CORS_ORIGIN: process.env.CORS_ORIGIN ?? 'http://localhost:3000',
